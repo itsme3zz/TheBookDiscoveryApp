@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "790652542589",
+    "firebase_url": "https://thebookdiscoveryapp.firebaseio.com",
+    "project_id": "thebookdiscoveryapp",
+    "storage_bucket": "thebookdiscoveryapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790652542589:android:529e3534b7b5a077",
+        "android_client_info": {
+          "package_name": "com.example.android.thebookdiscoveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790652542589-hpsocoq87vmv20295omln45vcp5iqdlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.thebookdiscoveryapp",
+            "certificate_hash": "34a358b8fa1d5865c06a7af3c1940b76dd866f5e"
+          }
+        },
+        {
+          "client_id": "790652542589-qafe1nc5ffmh28opilun8j3294286ep9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYxkhEeUvXQe0makq3_vI6EbJZbfc2454"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790652542589-qafe1nc5ffmh28opilun8j3294286ep9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

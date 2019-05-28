@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layoutDirection="locale"
+    android:background="#ffff"
+    >
+
+
+      <androidx.viewpager.widget.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/viewPager"
+          android:layout_width="fill_parent"
+          android:layout_height="840dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true" />
+
+
+      <Button
+          android:id="@+id/skipBtn"
+          android:layout_width="99dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentStart="true"
+          android:layout_marginBottom="11dp"
+          android:layout_marginStart="-10dp"
+          android:background="@android:color/transparent"
+          android:onClick="skip"
+          android:text="Skip"
+          android:textSize="14dp"
+          android:textColor="#459091" />
+
+
+      <Button
+          android:id="@+id/nxtBtn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="11dp"
+          android:layout_marginStart="11dp"
+          android:background="@android:color/transparent"
+          android:textSize="14dp"
+          android:text="next"
+          android:textColor="#459091" />
+
+      <LinearLayout
+          android:id="@+id/slid"
+          android:layout_width="wrap_content"
+          android:layout_height="60dp"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="40dp"
+          android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/SignBtn"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Get started"
+                android:textColor="#459091"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:id="@+id/mDotLayout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:orientation="horizontal">
+
+      </LinearLayout>
+
+</RelativeLayout>
